@@ -3,7 +3,5 @@
 require 'utils.php';
 
 $utils = new Utils();
-$utils->getSourceCode();
-$utils->loadDOM();
-$utils->getURL();
+$utils->getCommentaires("http://le-multi-gagnant.over-blog.com/");
 ?>
